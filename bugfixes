@@ -1,0 +1,11 @@
+- always check if code is rails, javascript, or html. 
+ex. 
+		<% @post.each do |post| %>  -correct
+		<%= @post.each do |post| %> -incorrect 
+		. the problem is a simple mistake when the equal sign means to show things on the page and I did not want that to happen. 
+
+-  <%= favicon_link_tag 'favicon.ico' %> 
+	<%= javascript_pack_tag 'application', 'https://fonts.googleapis.com/css?family=Raleway:400,700' %>  
+
+- stylesheets not properly linked in the application.html.erb file
+	<%= stylesheet_link_tag 'application' %> 
