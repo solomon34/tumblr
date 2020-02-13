@@ -8,7 +8,12 @@ ex.
 	<%= javascript_pack_tag 'application', 'https://fonts.googleapis.com/css?family=Raleway:400,700' %>  
 
 - stylesheets not properly linked in the application.html.erb file
-	<%= stylesheet_link_tag 'application' %>  
-	 
+	<%= stylesheet_link_tag 'application' %>   
+
 - double code in the body of the application.html.erb file 
-	.look for two <body> tags and two of the same code
+	.look for two <body> tags and two of the same code 
+
+-partial file not named correctly 
+	.Missing partial posts/_form, application/_form with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+
+
