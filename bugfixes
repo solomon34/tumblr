@@ -14,6 +14,9 @@ ex.
 	.look for two <body> tags and two of the same code 
 
 -partial file not named correctly 
-	.Missing partial posts/_form, application/_form with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+	.Missing partial posts/_form, application/_form with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in: 
+
+-sQlite constraint, can not delete a post without deleting the comments in the post as well. 
+	.this is a bit tricky but make sure to watch more videos
 
 
